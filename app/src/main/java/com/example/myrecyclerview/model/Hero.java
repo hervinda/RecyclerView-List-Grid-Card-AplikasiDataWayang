@@ -1,4 +1,4 @@
-package com.example.myrecyclerview;
+package com.example.myrecyclerview.model;
 
 public class Hero {
     private String name;

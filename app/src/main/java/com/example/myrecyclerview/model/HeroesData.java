@@ -1,4 +1,7 @@
-package com.example.myrecyclerview;
+package com.example.myrecyclerview.model;
+
+import com.example.myrecyclerview.R;
+import com.example.myrecyclerview.model.Hero;
 
 import java.util.ArrayList;
 
@@ -42,7 +45,7 @@ public class HeroesData {
             R.drawable.sanja
     };
 
-    static ArrayList<Hero> getListData() {
+    public static ArrayList<Hero> getListData() {
         ArrayList<Hero> list = new ArrayList<>();
         for (int position = 0; position < heroNames.length; position++) {
             Hero hero = new Hero();

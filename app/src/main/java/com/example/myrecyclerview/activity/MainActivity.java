@@ -1,4 +1,4 @@
-package com.example.myrecyclerview;
+package com.example.myrecyclerview.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -9,6 +9,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.example.myrecyclerview.R;
+import com.example.myrecyclerview.adapter.CardViewHeroAdapter;
+import com.example.myrecyclerview.adapter.GridHeroAdapter;
+import com.example.myrecyclerview.adapter.ListHeroAdapter;
+import com.example.myrecyclerview.model.Hero;
+import com.example.myrecyclerview.model.HeroesData;
 
 import java.util.ArrayList;
 
